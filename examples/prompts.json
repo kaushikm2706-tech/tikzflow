@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Neural Network Architecture",
+    "prompt": "Draw a neural network with 3 input nodes, 4 hidden nodes, and 2 output nodes, fully connected between layers"
+  },
+  {
+    "title": "Decision Flowchart",
+    "prompt": "Draw a flowchart that starts, runs a process step, checks a condition, branches yes/no, and ends"
+  },
+  {
+    "title": "Finite State Machine",
+    "prompt": "Draw a finite automaton with an initial state q0, a middle state q1, and an accepting state q2, with labeled transitions"
+  },
+  {
+    "title": "API Sequence Diagram",
+    "prompt": "Draw a sequence diagram between a Client and a Server showing a request, a response, and an acknowledgement"
+  },
+  {
+    "title": "RC Circuit",
+    "prompt": "Draw a simple RC circuit with a voltage source, a resistor, and a capacitor"
+  },
+  {
+    "title": "System Architecture Tree",
+    "prompt": "Draw a system architecture diagram with a top-level component branching into Component A and Component B, where Component B has two sub-components"
+  }
+]

@@ -1,0 +1,15 @@
+\documentclass[border=6pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,shapes.multipart,calc,fit,backgrounds,decorations.pathreplacing,decorations.markings,automata,chains,matrix,patterns}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+\begin{circuitikz}[american]
+  \draw (0,0) to[V, l=$V_{in}$] (0,3)
+        to[R, l=$R_1$] (3,3)
+        to[C, l=$C_1$] (3,0)
+        -- (0,0);
+  \draw (3,3) -- (5,3) to[short, o-o] (5,3) node[right] {$V_{out}$};
+\end{circuitikz}
+\end{document}

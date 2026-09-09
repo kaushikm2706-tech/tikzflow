@@ -1,0 +1,8 @@
+streamlit>=1.60
+pillow>=10.0
+pdf2image>=1.17
+pytest>=8.0
+
+# Optional — only required when WATSONX_* env vars are set to use live
+# IBM watsonx.ai Granite instead of the offline pattern fallback.
+ibm-watsonx-ai>=1.1
